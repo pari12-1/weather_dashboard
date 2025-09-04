@@ -1,7 +1,7 @@
 import requests
 import os
 
-API_KEY = "c90b411ec5b83cbe4d27e69b82718acf"  # Store key in environment variable
+API_KEY = "Your_API_key"  # Store key in environment variable
 
 def fetch_weather(city="London", units="metric"):
     """Fetch current weather data for a given city."""
